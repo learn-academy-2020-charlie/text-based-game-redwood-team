@@ -1,3 +1,21 @@
+puts <<-'EOF'
+   ___ _                  _   
+  / _ \ | __ _ _ __   ___| |_ 
+ / /_)/ |/ _` | '_ \ / _ \ __|
+/ ___/| | (_| | | | |  __/ |_ 
+\/    |_|\__,_|_| |_|\___|\__|
+
+   __       _ _      _           
+  / /  __ _| (_) ___| |__  _   _ 
+ / /  / _` | | |/ __| '_ \| | | |
+/ /__| (_| | | | (__| | | | |_| |
+\____/\__,_|_|_|\___|_| |_|\__,_|
+                                 
+by Selam, Cynthia, and Miguel
+
+EOF
+
+
 def game
     puts "Welcome to Planet Lalichu. We don't have time for an introduction because the planet is under attack by the evil humanoids of Planet Earth. All inhabitants are moving to camp Wup-Ash to sign up for the fight to save their planet."
     # name entry
