@@ -30,12 +30,20 @@ def game
 
     # choice chain
     if element == '1'
+        puts '█▀▀ ▄▀█ █▀█ ▀█▀ █░█'
+        puts '██▄ █▀█ █▀▄ ░█░ █▀█'
         puts "Wow, you have earth powers!"
     elsif element == '2'
+        puts '█░█░█ █ █▄░█ █▀▄'
+        puts '▀▄▀▄▀ █ █░▀█ █▄▀'
         puts "Wow, you have wind poweers!"
     elsif element == '3'
+        puts '█▀▀ █ █▀█ █▀▀'
+        puts '█▀░ █ █▀▄ ██▄'
         puts "Wow, you have fire powers!"
     elsif element == '4'
+        puts '█░█░█ ▄▀█ ▀█▀ █▀▀ █▀█'
+        puts '▀▄▀▄▀ █▀█ ░█░ ██▄ █▀▄'
         puts "Wow, you have water powers!"
     else
         puts "Sure, if that's all you got."
