@@ -14,14 +14,6 @@ puts <<-'EOF'
 by Selam, Cynthia, and Miguel
 
 EOF
-game_over_text = '
-░██████╗░░█████╗░███╗░░░███╗███████╗  ░█████╗░██╗░░░██╗███████╗██████╗░
-██╔════╝░██╔══██╗████╗░████║██╔════╝  ██╔══██╗██║░░░██║██╔════╝██╔══██╗
-██║░░██╗░███████║██╔████╔██║█████╗░░  ██║░░██║╚██╗░██╔╝█████╗░░██████╔╝
-██║░░╚██╗██╔══██║██║╚██╔╝██║██╔══╝░░  ██║░░██║░╚████╔╝░██╔══╝░░██╔══██╗
-╚██████╔╝██║░░██║██║░╚═╝░██║███████╗  ╚█████╔╝░░╚██╔╝░░███████╗██║░░██║
-░╚═════╝░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚══════╝  ░╚════╝░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝
-'
 
 def game
     puts "Welcome to Planet Lalichu. We don't have time for an introduction because the planet is under attack by the evil humanoids of Planet Earth. All inhabitants are moving to camp Wup-Ash to sign up for the fight to save their planet."
@@ -97,6 +89,12 @@ def game
             if earthpower == '1'
                 puts "You're lathered in mud and the guards are too grossed out to chase you. You get into the cave where you find shalomar and lather them in mud as well so the two of you can escape without a fight." 
                 puts "Congratulations, you saved the planet Lalichu and have brought honour to your family's name."
+                puts '██╗░░░██╗░█████╗░██╗░░░██╗  ░██╗░░░░░░░██╗██╗███╗░░██╗██╗
+                ╚██╗░██╔╝██╔══██╗██║░░░██║  ░██║░░██╗░░██║██║████╗░██║██║
+                ░╚████╔╝░██║░░██║██║░░░██║  ░╚██╗████╗██╔╝██║██╔██╗██║██║
+                ░░╚██╔╝░░██║░░██║██║░░░██║  ░░████╔═████║░██║██║╚████║╚═╝
+                ░░░██║░░░╚█████╔╝╚██████╔╝  ░░╚██╔╝░╚██╔╝░██║██║░╚███║██╗
+                ░░░╚═╝░░░░╚════╝░░╚═════╝░  ░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚══╝╚═╝'
 
             elsif earthpower == '2'
                 puts 'You muster all your energy to grow a rose bush that fails to impress the guards. They take offence by your feeble approach and shackle you along with shalomar.'
@@ -129,6 +127,12 @@ def game
             if windpower  == '1'
                 puts "You eat your magic beans, the guards look at you puzzled. Before they can react, you stuff your hands into your backpocket and reveal the biggest gas bomb. They faint at the stench and you walk through the cave to rescue shalomar, who is also unconscious." 
                 puts "Congratulations, you saved the planet Lalichu and have brought honour to your family's name."
+                puts '██╗░░░██╗░█████╗░██╗░░░██╗  ░██╗░░░░░░░██╗██╗███╗░░██╗██╗
+                ╚██╗░██╔╝██╔══██╗██║░░░██║  ░██║░░██╗░░██║██║████╗░██║██║
+                ░╚████╔╝░██║░░██║██║░░░██║  ░╚██╗████╗██╔╝██║██╔██╗██║██║
+                ░░╚██╔╝░░██║░░██║██║░░░██║  ░░████╔═████║░██║██║╚████║╚═╝
+                ░░░██║░░░╚█████╔╝╚██████╔╝  ░░╚██╔╝░╚██╔╝░██║██║░╚███║██╗
+                ░░░╚═╝░░░░╚════╝░░╚═════╝░  ░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚══╝╚═╝'
             elsif windpower  == '2'
                 puts "You see the guards, and think, 'Easy peasy, I'll fly over these humanoids' but to your surprise, they fling an enlarged fly zapper and sting you to your death."
                 puts '
@@ -171,6 +175,12 @@ def game
             elsif firepower == '2'
                 puts "You see the guards, and you can't help but think how attractive they are. You begin to drool and produce lava that follows the guards to their own demise. You're saddened by the loss, but remain faithful to the mission. You save Shalomar, closing your eyes as to not scorch him with your droollava because Shalomar is attractive as well."
                 puts "Congratulations, you saved the planet Lalichu and have brought honour to your family's name."
+                puts '██╗░░░██╗░█████╗░██╗░░░██╗  ░██╗░░░░░░░██╗██╗███╗░░██╗██╗
+                ╚██╗░██╔╝██╔══██╗██║░░░██║  ░██║░░██╗░░██║██║████╗░██║██║
+                ░╚████╔╝░██║░░██║██║░░░██║  ░╚██╗████╗██╔╝██║██╔██╗██║██║
+                ░░╚██╔╝░░██║░░██║██║░░░██║  ░░████╔═████║░██║██║╚████║╚═╝
+                ░░░██║░░░╚█████╔╝╚██████╔╝  ░░╚██╔╝░╚██╔╝░██║██║░╚███║██╗
+                ░░░╚═╝░░░░╚════╝░░╚═════╝░  ░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚══╝╚═╝'
             elsif firepower == '3'
                 puts 'You fill the area with smoke and the guards begin to cough, but it becomes so smokey that you no longer can see. You walk pass the cave and onto a cliff where you fall to your smokey demise.'
                 puts '
@@ -211,6 +221,12 @@ def game
             elsif waterpower  == '1'
                 puts "As you walk up to the guards, you're an absolute nervous wreck. Its audacious and the guards are puzzled. You begin to profusely perspirate. One guard attempts to grab your arm and her fingers slide off, picking up a disgusting sticky residue that eats her alive. Her partner screams in terror and runs off to tell his commander. You're no longer nervous and your skin returns to its skaley nature. You walk into the cave and complete the mission to save Shalomar."
                 puts "Congratulations, you saved the planet Lalichu and have brought honour to your family's name."
+                puts '██╗░░░██╗░█████╗░██╗░░░██╗  ░██╗░░░░░░░██╗██╗███╗░░██╗██╗
+                ╚██╗░██╔╝██╔══██╗██║░░░██║  ░██║░░██╗░░██║██║████╗░██║██║
+                ░╚████╔╝░██║░░██║██║░░░██║  ░╚██╗████╗██╔╝██║██╔██╗██║██║
+                ░░╚██╔╝░░██║░░██║██║░░░██║  ░░████╔═████║░██║██║╚████║╚═╝
+                ░░░██║░░░╚█████╔╝╚██████╔╝  ░░╚██╔╝░╚██╔╝░██║██║░╚███║██╗
+                ░░░╚═╝░░░░╚════╝░░╚═════╝░  ░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚══╝╚═╝'
             end
         else 
             puts "your #{element} literally does nothing for us, you should have followed the rules."
